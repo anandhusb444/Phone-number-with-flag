@@ -1,0 +1,12 @@
+.divBoxParent{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.first_child_div{
+    width: 300px;
+    height: 330px;
+    background-color: antiquewhite;
+}
