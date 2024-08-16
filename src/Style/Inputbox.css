@@ -6,7 +6,34 @@
 }
 
 .first_child_div{
-    width: 300px;
-    height: 330px;
+    width: 270px;
+    height: 260px;
     background-color: antiquewhite;
+}
+
+.child_div_1{
+    padding: 20px;
+}
+
+.child_div_2{
+    padding: 20px;
+}
+
+.main_p{
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.main_input{
+    width: 180px;
+    height: 20px;
+}
+
+.main_button{
+    width : 190px;
+    height : 25px
+}
+.button_div{
+    position: relative;
+    left: 20px;
 }
