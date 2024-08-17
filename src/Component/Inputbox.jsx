@@ -7,8 +7,8 @@ function Inputbox() {
     <div>
       <div className='divBoxParent'>
         <div className='first_child_div'>
-
-            <div className='child_div_1'>
+          <div className='continer_div'>
+          <div className='child_div_1'>
                 <h4 className='h1_phone'>Enter Phone number</h4>
             </div>
 
@@ -18,8 +18,13 @@ function Inputbox() {
             </div>
             
             <div className='button_div'>
+              <p className='p_button'>By Continuing, you May receive an SMS for Verification. Message and the data rates may apply </p>
               <button className='main_button'>Continue</button>
             </div>
+
+          </div>
+
+            
         </div>
     
 
