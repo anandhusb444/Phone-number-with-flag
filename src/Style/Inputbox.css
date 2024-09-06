@@ -1,6 +1,4 @@
-*{
-    
-}
+
 .divBoxParent{
     display: flex;
     justify-content: center;
@@ -9,9 +7,10 @@
 }
 
 .first_child_div{
-    width: 300px;
-    height: 280px;
-    background-color: antiquewhite;
+    width: 340px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .child_div_1{
@@ -21,20 +20,40 @@
 .child_div_2{
     padding: 10px;
 }
+.h1_phone{
+    position: relative;
+    left: 30px;
+    font-weight: 700;
+    font-size: large;
+    color: #1a2639;
+
+}
 
 .main_p{
     font-size: x-small;
     font-weight: 600;
+    position: relative;
+    bottom: 30px;
+    left: 40px;
 }
 
 .main_input{
     width: 180px;
     height: 20px;
+    position: relative;
+    left: 40px;
+    bottom: 29px;
 }
 
 .main_button{
     width : 190px;
-    height : 25px
+    height : 25px;
+    position: relative;
+    left: 50px;
+    bottom: 22px;
+    border: none;
+    color: white;
+    background-color: #1a2639;
 }
 .button_div{
     margin-top: 10px;
@@ -43,9 +62,11 @@
 
 .p_button{
     font-size: x-small;
+    position: relative;
+    left: 50px;
+    bottom: 18px;
 
 }
-.continer_div{
- 
-
+body{
+    background-color: #0e1113;
 }
